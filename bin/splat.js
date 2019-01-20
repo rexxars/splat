@@ -11,10 +11,10 @@ const cli = meow(
   `
   Usage
   $ splat <output-path>
-  
+
   Options
   --from  Template to use
-  
+
   Examples
   $ splat --from react ./that-folder
   `,
@@ -80,7 +80,7 @@ async function updatePackageJson(files) {
   const hasChanged = newPkg !== oldPkg
 
   if (hasChanged) {
-    await fs.writeFile(path.join(outputDir, 'package.json'), JSON.stringify(newPkg, null, 2))
+    await fs.writeFile(path.join(outputDir, 'package.json'), newPkg)
     console.log('Updated package.json with new dependencies, run npm i/yarn to install them')
   }
 

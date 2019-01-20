@@ -1,0 +1,46 @@
+{
+  "name": "splat",
+  "version": "1.0.0",
+  "description": "Splats a bunch of project configs/defaults to a folder",
+  "main": "bin/splat.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/splat.git"
+  },
+  "keywords": [
+    "splat",
+    "defaults",
+    "lint",
+    "eslint",
+    "prettier",
+    "config",
+    "init"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/splat/issues"
+  },
+  "homepage": "https://github.com/rexxars/splat#readme",
+  "dependencies": {
+    "deep-sort-object": "^1.0.2",
+    "inquirer": "^6.2.1",
+    "meow": "^5.0.0",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-sanity": "^0.140.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2"
+  }
+}

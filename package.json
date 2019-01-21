@@ -1,6 +1,6 @@
 {
   "name": "splat",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Splats a bunch of project configs/defaults to a folder",
   "main": "bin/splat.js",
   "engines": {

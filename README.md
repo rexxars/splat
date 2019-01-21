@@ -1,5 +1,7 @@
 # splat
 
+<img align="right" width="270" height="270" src="assets/splat-text.png" alt="Splat">
+
 Splats a bunch of configuration stuff into a directory. ESLint, Prettier, EditorConfig... All that good stuff.
 
 ## Installing
